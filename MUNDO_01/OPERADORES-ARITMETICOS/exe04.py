@@ -1,4 +1,4 @@
-n1 =input('digite algo:')
+n1 = input('digite algo:')
 print(type(n1))
 print('É UM NUMÉRICO?\n{}'.format(n1.isnumeric()))
 print('É ALFABÉTICO?\n{}'.format(n1.isalpha()))
