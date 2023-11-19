@@ -1,6 +1,9 @@
-numero_1 = (input('digite um numero:'))
-print(f'unidade:{numero_1[3]}')
-print(f'dezena:{numero_1[2]}')
-print(f'centena:{numero_1[1]}')
-print(f'milhar:{numero_1[0]}')
-print('-'*30)
+numero_1 =int (input('digite um numero:'))
+u = numero_1 // 1 % 10
+d = numero_1 // 10 % 10
+c = numero_1 //100 % 10
+m = numero_1 // 1000 % 10
+print(f'unidade:{u}')
+print(f'dezena:{d}')
+print(f'centena:{c}')
+print(f'milhar:{m}')
