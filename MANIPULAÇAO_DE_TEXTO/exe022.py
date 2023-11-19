@@ -1,0 +1,7 @@
+nome= (input('digite seu nome completo:'))
+div = nome.split()
+junt = ''.join(div)
+print(nome.upper())
+print(nome.lower())
+print(f'sem considerar os espaços,seu nome tem {len(junt)} letras')
+print(f'seu primeiro nome tem {len(div[0])} letras')
