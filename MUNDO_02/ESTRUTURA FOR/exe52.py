@@ -10,6 +10,3 @@ if primo == 2:
     print(f'o numero {num} é primo')
 else:
     print(f'o numero {num} nao é primo')
-
-      
-    
