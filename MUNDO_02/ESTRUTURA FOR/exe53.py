@@ -1,21 +1,14 @@
-'''corrigir'''
-
-entrada = str(input('digite uma palavra ou frase:').strip())
+entrada = str(input('digite uma palavra ou frase:').strip().upper())
 
 mamao = entrada.split()
 
 lista = ''.join(mamao)
-invert = lista[::-1]
+invert = ''
 
-print(invert)
-print(lista)
+for c in range(len(lista) -1 ,-1,-1):
+    invert = invert + lista[c]
 
-if lista == invert:
-    print('-'*30)
-    print('essa palavra é um palindromo!')
-    print('-'*30)
+if invert == lista:
+    print('temos um palindromo!')
 else:
-    print('-'*30)
-    print('essa palavra nao é um palindromo!')
-    print('-'*30)
-
+    print('nao temos um palindromo!')
