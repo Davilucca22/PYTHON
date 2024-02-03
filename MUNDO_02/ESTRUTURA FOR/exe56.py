@@ -1,4 +1,4 @@
-nome = [0 for x in range(4)]
+nome = [0 for x in range(4)] 
 idade = [0 for x in range(4)]
 sexo = [0 for x in range(4)]
 
