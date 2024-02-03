@@ -16,6 +16,6 @@ for c in range(0,5):
         menor = vet[c]
 
 print('-'*30)
-print(f'maior peso:{maior}')
-print(f'menor peso:{menor}')
+print(f'maior peso:{maior} kg')
+print(f'menor peso:{menor} kg')
 print('-'*30)
