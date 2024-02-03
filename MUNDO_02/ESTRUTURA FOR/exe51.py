@@ -10,8 +10,9 @@ print('-'*30)
 for c in range(1,11):
 
     soma = ptermo + (c - 1) * razao
-    print(soma)
+    print(soma,end=' -> ')
 
+print('fim')
 print('-'*30)
 
 
