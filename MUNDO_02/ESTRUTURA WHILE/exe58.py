@@ -8,11 +8,13 @@ print('-'*30)
 tent = int(input('pensei em um numero entre 0 e 10,tente adivinhar:'))
 
 while tent != alet:
-    if tent != alet:
-        print('INCORRETO!')
-        cont += 1
+    if tent < alet:
+        print('mais...,tente de novo')
+    else:
+        print('menos...,tente de novo')
+    cont += 1
 
-    tent = int(input('pensei em um numero entre 0 e 10,tente adivinhar:'))
+    tent = int(input(''))
 
 print('-'*30)
 print('correto!')
