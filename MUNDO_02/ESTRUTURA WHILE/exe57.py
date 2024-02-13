@@ -1,19 +1,8 @@
-sexo = str(input('qual o seu sexo?[M/F]:').upper())
+sexo = str(input('qual o seu sexo?[M/F]:').upper().strip()[0])
 
-if sexo == 'M':
-    print('voce tem pipi')
-elif sexo == 'F':
-    print('voce nao tem pipi')
-else:
-       print('valor invalido')
 
 while sexo != 'M' and sexo != 'F':
 
-    sexo = str(input('qual o seu sexo?[M/F]:').upper())
+    sexo = str(input('valor invalido,qual o seu sexo?[M/F]:').upper().strip()[0])
 
-    if sexo == 'M':
-     print('voce tem pipi')
-    elif sexo == 'F':
-     print('voce nao tem pipi')
-    else:
-       print('valor invalido')
+print(f'sexo {sexo} registrado com sucesso! ')
