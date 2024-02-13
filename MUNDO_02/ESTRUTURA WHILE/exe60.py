@@ -1,7 +1,7 @@
 dig = int(input('digite um numero:'))
 
 cont = 1
-fat = 1
+fat = 1 
 
 while dig >= cont :
 
