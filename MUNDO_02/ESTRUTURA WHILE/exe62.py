@@ -1,41 +1,23 @@
 ptermo = int (input('digite o primeiro termo:'))
 razao = int (input('digite a razao:'))
 
+termos = int(input('deseja ver quantos termos?:'))
+
 soma = 0
 cont = 1
+contermo = 0
 
-print('-'*30)
-print('primeiros 10 termos da PA')
-print('-'*30)
-while cont != 11:
+while termos != 0:
+    cont = 1
+    contermo += termos
 
-    soma = ptermo + (cont - 1) * razao
-    print(soma,end=' -> ')
-    cont += 1
+    while cont != contermo+1:
 
-print('fim')
-print('-'*30)
-print('(digite 0 para parar)')
-ptermo = int (input('digite o primeiro termo:'))
-razao = int (input('digite a razao:'))
+        soma = ptermo + (cont - 1) * razao
+        print(soma,end=' -> ')
+        cont += 1
+    print('fim')
 
-while ptermo != 0:
-
-  soma = 0
-  cont = 1
-
-  print('-'*30)
-  print('primeiros 10 termos da PA')
-  print('-'*30)
-  while cont != 11:
-   soma = ptermo + (cont - 1) * razao
-   print(soma,end=' -> ')
-   cont += 1
-
-  print('fim')
-  print('-'*30)
-  print('(digite 0 para parar)')
-  ptermo = int (input('digite o primeiro termo:'))
-  razao = int (input('digite a razao:'))  
+    termos = int(input('deseja ver quantos termos?:'))
 
 print('fim')
