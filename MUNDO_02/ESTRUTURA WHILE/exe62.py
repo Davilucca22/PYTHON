@@ -18,6 +18,6 @@ while termos != 0:
         cont += 1
     print('fim')
 
-    termos = int(input('deseja ver quantos termos?:'))
+    termos = int(input('deseja ver mais quantos termos?:'))
 
 print('fim')
