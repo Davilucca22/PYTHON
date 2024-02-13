@@ -1,17 +1,18 @@
 numb = int(input('digite um numero:'))
 esc = str(input('continuar?[S/N]:').upper())
 
-cont = 0
+cont = 1
 soma = 0
 maior = numb
 menor = numb
+soma += numb
 
 while esc != 'N':
-    cont +=1
-    soma += numb
+    cont += 1
 
     numb = int (input('digite um numero:'))
     esc = str(input('continuar?[S/N]:').upper())
+    soma += numb
 
     if numb > maior:
         maior = numb
@@ -19,7 +20,7 @@ while esc != 'N':
         menor = numb
 
 print('-'*35)
-if cont >= 1:
+if cont != 0:
     media = soma / cont
     print(f'media dos numeros lidos:{media:.2f}')
 else:
