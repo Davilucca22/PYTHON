@@ -12,3 +12,4 @@ print('-'*30)
 print(f'foram digitados {cont} numeros,e')
 print(f'a soma dos numeros lidos é {soma}')
 print('-'*30)
+ 
