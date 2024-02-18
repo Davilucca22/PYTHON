@@ -12,7 +12,7 @@ while True:
 
     sleep(0.5)
     print('-'*30)
-    numb = int  (input('digite um numero para ver sua tabuada:'))
+    numb = int  (input('digite um numero para ver sua tabuada[digite um numero negativo para parar]:'))
 
     if numb < 0:
         break
